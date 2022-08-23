@@ -1,0 +1,5 @@
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\Release\FNP8ControlPanel.Form1.resources
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\Release\FNP8ControlPanel.Form2.resources
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\Release\FNP8ControlPanel.Properties.Resources.resources
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\Release\FNP8ControlPanel.csproj.GenerateResource.cache
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\Release\FNP8ControlPanel.csproj.CoreCompileInputs.cache

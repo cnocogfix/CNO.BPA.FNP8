@@ -1,0 +1,72 @@
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.FNP8.config
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.FNP8.dll.config
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.FNP8.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.FNP8.pdb
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\IIS.FNP8.HLP.XML
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\log4net.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\Microsoft.Web.Services3.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\MigrateOD.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\Oracle.ManagedDataAccess.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Buffers.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Memory.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Numerics.Vectors.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Text.Encodings.Web.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Text.Json.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.ValueTuple.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Buffers.xml
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Memory.xml
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Numerics.Vectors.xml
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Text.Encodings.Web.xml
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Text.Json.xml
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Threading.Tasks.Extensions.xml
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.ValueTuple.xml
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.csproj.AssemblyReference.cache
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.Properties.Resources.resources
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.csproj.GenerateResource.cache
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.csproj.CoreCompileInputs.cache
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.csproj.CopyComplete
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.dll
+D:\7.1 Files\BPA.net\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.pdb
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.FNP8.config
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.FNP8.dll.config
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.FNP8.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.FNP8.pdb
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\IIS.FNP8.HLP.XML
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.Framework.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\FileNet.Api.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\log4net.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\Microsoft.Web.Services3.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\MigrateOD.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\Oracle.ManagedDataAccess.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Buffers.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Memory.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Numerics.Vectors.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Text.Encodings.Web.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Text.Json.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.ValueTuple.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.Framework.pdb
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\CNO.BPA.Framework.dll.config
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Buffers.xml
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Memory.xml
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Numerics.Vectors.xml
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Text.Encodings.Web.xml
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Text.Json.xml
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.Threading.Tasks.Extensions.xml
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\bin\x86\Debug\System.ValueTuple.xml
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.csproj.AssemblyReference.cache
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.Properties.Resources.resources
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.csproj.GenerateResource.cache
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.csproj.CoreCompileInputs.cache
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.csproj.CopyComplete
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.dll
+D:\ProdCodebase\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\obj\Debug\CNO.BPA.FNP8.pdb

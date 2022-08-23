@@ -1,0 +1,15 @@
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\bin\x86\Debug\FNP8ControlPanel.exe
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\bin\x86\Debug\FNP8ControlPanel.pdb
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\bin\x86\Debug\CNO.BPA.FNP8.dll
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\bin\x86\Debug\FileNet.Api.dll
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\bin\x86\Debug\MigrateOD.dll
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\bin\x86\Debug\CNO.BPA.FNP8.pdb
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\x86\Debug\FNP8ControlPanel.Form1.resources
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\x86\Debug\FNP8ControlPanel.Properties.Resources.resources
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\x86\Debug\FNP8ControlPanel.csproj.GenerateResource.Cache
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\x86\Debug\FNP8ControlPanel.exe
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\obj\x86\Debug\FNP8ControlPanel.pdb
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\bin\x86\Debug\log4net.dll
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\bin\x86\Debug\CNO.BPA.Framework.dll
+C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\FNP8ControlPanel\bin\x86\Debug\CNO.BPA.FNP8.config

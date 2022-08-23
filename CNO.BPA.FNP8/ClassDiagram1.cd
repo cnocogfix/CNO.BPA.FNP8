@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IIS.FNP8.FileNetP8" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="2.25" />
+    <Members>
+      <Field Name="_conn" Hidden="true" />
+      <Field Name="_crypto" Hidden="true" />
+      <Field Name="_domain" Hidden="true" />
+      <Field Name="_domainName" Hidden="true" />
+      <Field Name="_folder" Hidden="true" />
+      <Field Name="_objectStore" Hidden="true" />
+      <Field Name="_password" Hidden="true" />
+      <Field Name="_uri" Hidden="true" />
+      <Field Name="_userName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>MQQAAIAEAAAAgAAQgAAAAABAACACAAAAAgoEHAAIBhQ=</HashCode>
+      <FileName>FileNetP8.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="IIS.FNP8.TiffUtility">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAIAAAAAAAAAAAAAAIBAAAAAgACAAA=</HashCode>
+      <FileName>TiffUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IIS.FNP8.Framework.Cryptography">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="hashAlgorithm" Hidden="true" />
+      <Field Name="initVector" Hidden="true" />
+      <Field Name="keySize" Hidden="true" />
+      <Field Name="passPhrase" Hidden="true" />
+      <Field Name="passwordIterations" Hidden="true" />
+      <Field Name="saltValue" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAgAgAAQAAAAAAAAAAAAAAAAAAAAAAAAQAQ=</HashCode>
+      <FileName>Framework\Cryptography.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IIS.FNP8.Properties.Resources">
+    <Position X="9" Y="0.5" Width="1.75" />
+    <Members>
+      <Field Name="resourceCulture" Hidden="true" />
+      <Field Name="resourceMan" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAABEAAAAQIAAAAAAAAAAAAgAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IIS.FNP8.IFileNetP8">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEAAAAAAAQAAAAAAAAAAACAAAAAAAAAAAAAhQ=</HashCode>
+      <FileName>IFileNetP8.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

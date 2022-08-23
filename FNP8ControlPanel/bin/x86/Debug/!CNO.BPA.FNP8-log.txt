@@ -1,0 +1,560 @@
+[Start of new log session]
+2014-01-06 11:44:03,849 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{91E60D8F-3931-449C-AF94-99EA3182B236}' from the object store 'P8Documents'.
+2014-01-06 11:44:05,144 [9] INFO  CNO.BPA.FNP8.DocExtraction - Extraction complete returning 3.
+[Start of new log session]
+2014-01-06 11:45:33,834 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{91E60D8F-3931-449C-AF94-99EA3182B236}' from the object store 'P8Documents'.
+[Start of new log session]
+2014-01-06 11:49:30,396 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{91E60D8F-3931-449C-AF94-99EA3182B236}' from the object store 'P8Documents'.
+2014-01-06 11:49:31,745 [9] INFO  CNO.BPA.FNP8.DocExtraction - Extraction complete returning 3.
+[Start of new log session]
+2014-01-06 12:02:23,468 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{91E60D8F-3931-449C-AF94-99EA3182B236}' from the object store 'P8Documents'.
+2014-01-06 12:02:27,685 [9] INFO  CNO.BPA.FNP8.DocExtraction - Extraction complete returning 3.
+[Start of new log session]
+2014-01-06 12:49:19,757 [8] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{91E60D8F-3931-449C-AF94-99EA3182B236}' from the object store 'P8Documents'.
+2014-01-06 12:49:19,834 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-06 12:49:19,887 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-06 12:49:20,073 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-06 12:49:20,080 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentTransfer element.
+2014-01-06 12:49:20,377 [8] DEBUG CNO.BPA.FNP8.DocExtraction - There were 1 pages extracted.
+2014-01-06 12:49:20,382 [8] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+2014-01-06 12:49:20,387 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document content is a TIFF and the caller requested the content be returned as an array of single page files.
+2014-01-06 12:49:20,927 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document content was stored as a multi-page file and has been burst to singles using the SplitTiffImage method.
+2014-01-06 12:49:20,930 [8] INFO  CNO.BPA.FNP8.DocExtraction - Extraction complete returning 3.
+[Start of new log session]
+2014-01-06 12:49:29,667 [8] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{91E60D8F-3931-449C-AF94-99EA3182B236}' from the object store 'P8Documents'.
+2014-01-06 12:49:29,734 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-06 12:49:29,776 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-06 12:49:29,932 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-06 12:49:29,939 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentTransfer element.
+2014-01-06 12:49:30,029 [8] DEBUG CNO.BPA.FNP8.DocExtraction - There were 1 pages extracted.
+2014-01-06 12:49:30,035 [8] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+2014-01-06 12:49:30,041 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document content is a TIFF and the caller requested the content be returned as a multi-page file.
+2014-01-06 12:49:30,046 [8] INFO  CNO.BPA.FNP8.DocExtraction - Extraction complete returning 1.
+[Start of new log session]
+2014-01-14 16:23:37,440 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{91E60D8F-3931-449C-AF94-99EA3182B236}' from the object store 'P8Documents'.
+2014-01-14 16:23:37,518 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-14 16:23:37,565 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-14 16:23:37,784 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-14 16:23:37,784 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentTransfer element.
+2014-01-14 16:23:38,298 [9] DEBUG CNO.BPA.FNP8.DocExtraction - There were 1 content elements extracted.
+2014-01-14 16:23:38,314 [9] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+2014-01-14 16:23:38,314 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document content is a TIFF and the caller requested the content be returned as an array of single page files.
+2014-01-14 16:23:38,876 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document content was stored as a multi-page file and has been burst to singles using the SplitTiffImage method.
+2014-01-14 16:23:38,891 [9] INFO  CNO.BPA.FNP8.DocExtraction - Extraction complete returning an array of 3 file(s).
+[Start of new log session]
+2014-01-16 16:24:40,304 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-16 16:24:40,340 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-16 16:24:40,345 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-16 16:24:40,352 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-16 16:24:40,357 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-16 16:24:43,139 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-16 16:24:47,131 [8] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{91E60D8F-3931-449C-AF94-99EA3182B236}' from the object store 'P8Documents'.
+2014-01-16 16:24:47,225 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-16 16:24:47,362 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-16 16:24:48,598 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-16 16:24:48,602 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentTransfer element.
+[Start of new log session]
+2014-01-16 16:33:30,495 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-16 16:33:30,509 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-16 16:33:30,513 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-16 16:33:30,520 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-16 16:33:30,524 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-16 16:33:32,544 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-16 16:33:34,518 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{91E60D8F-3931-449C-AF94-99EA3182B236}' from the object store 'P8Documents'.
+2014-01-16 16:33:34,570 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-16 16:33:34,614 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-16 16:33:34,745 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-16 16:33:34,750 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentTransfer element.
+2014-01-16 16:35:22,381 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocumentContent: Error retrieving document content
+System.Data.EvaluateException: Cannot find column [CONFIG_TYPE].
+   at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CNO.BPA.FNP8.DocInfo.getExtension(String MimeType) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocInfo.cs:line 39
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 176
+2014-01-16 16:35:29,004 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocument: Error retrieving document
+System.Exception: CNO.BPA.FNP8.DocExtraction.getDocumentContent: Error retrieving document content; Cannot find column [CONFIG_TYPE]. ---> System.Data.EvaluateException: Cannot find column [CONFIG_TYPE].
+   at System.Data.NameNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.BinaryNode.Bind(DataTable table, List`1 list)
+   at System.Data.DataExpression.Bind(DataTable table)
+   at System.Data.DataExpression..ctor(DataTable table, String expression, Type type)
+   at System.Data.Select..ctor(DataTable table, String filterExpression, String sort, DataViewRowState recordStates)
+   at System.Data.DataTable.Select(String filterExpression)
+   at CNO.BPA.FNP8.DocInfo.getExtension(String MimeType) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocInfo.cs:line 39
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 176
+   --- End of inner exception stack trace ---
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 215
+   at CNO.BPA.FNP8.DocExtraction.getDocument(IUserConnection UserConn, IDocInfo DocInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 109
+[Start of new log session]
+2014-01-16 16:48:50,996 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-16 16:48:51,021 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-16 16:48:51,026 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-16 16:48:51,033 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-16 16:48:51,038 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-16 16:48:52,811 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-16 16:48:56,602 [8] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{91E60D8F-3931-449C-AF94-99EA3182B236}' from the object store 'P8Documents'.
+2014-01-16 16:48:56,656 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-16 16:48:56,697 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-16 16:48:56,818 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-16 16:48:56,826 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentTransfer element.
+2014-01-16 16:49:34,041 [8] DEBUG CNO.BPA.FNP8.DocExtraction - There were 1 content elements extracted.
+2014-01-16 16:49:34,049 [8] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+2014-01-16 16:49:34,053 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document content is a TIFF and the caller requested the content be returned as an array of single page files.
+2014-01-16 16:49:34,666 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document content was stored as a multi-page file and has been burst to singles using the SplitTiffImage method.
+2014-01-16 16:49:34,670 [8] INFO  CNO.BPA.FNP8.DocExtraction - Extraction complete returning an array of 3 file(s).
+[Start of new log session]
+2014-01-17 14:25:08,925 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-17 14:25:08,948 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-17 14:25:08,953 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-17 14:25:08,961 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-17 14:25:08,965 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-17 14:25:11,431 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-17 14:25:16,339 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-17 14:25:19,884 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{0A43EA02-ECBE-4ADA-9588-A925DEF69B3E}' from the object store 'P8FNISDocuments'.
+2014-01-17 14:25:19,962 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-17 14:25:20,007 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-17 14:25:20,135 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-17 14:25:20,140 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-17 14:25:20,189 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocumentContent: Error retrieving document content
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 205
+2014-01-17 14:25:20,241 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocument: Error retrieving document
+System.Exception: CNO.BPA.FNP8.DocExtraction.getDocumentContent: Error retrieving document content; Value cannot be null.
+Parameter name: path1 ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 205
+   --- End of inner exception stack trace ---
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 221
+   at CNO.BPA.FNP8.DocExtraction.getDocument(IUserConnection UserConn, IDocInfo DocInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 115
+[Start of new log session]
+2014-01-17 14:27:13,247 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-17 14:27:13,262 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-17 14:27:13,267 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-17 14:27:13,276 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-17 14:27:13,281 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-17 14:27:14,358 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-17 14:27:14,771 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '284477' so a search must first be performed
+[Start of new log session]
+2014-01-17 14:27:18,992 [9] ERROR CNO.BPA.FNP8.DocExtraction - No rows were returned from the search using F_DOCNUMBER '284477'.
+2014-01-17 14:27:18,999 [9] INFO  CNO.BPA.FNP8.DocExtraction - A Version Series ID () and an Object Store (P8FNISDocuments) are required to extract a document.
+2014-01-17 14:27:55,511 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '284477' so a search must first be performed
+[Start of new log session]
+2014-01-17 14:27:59,324 [9] ERROR CNO.BPA.FNP8.DocExtraction - No rows were returned from the search using F_DOCNUMBER '284477'.
+2014-01-17 14:28:40,497 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '284477' so a search must first be performed
+[Start of new log session]
+2014-01-17 14:32:45,880 [9] ERROR CNO.BPA.FNP8.DocExtraction - No rows were returned from the search using F_DOCNUMBER '284477'.
+[Start of new log session]
+2014-01-17 14:33:10,340 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-17 14:33:10,356 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-17 14:33:10,360 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-17 14:33:10,368 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-17 14:33:10,372 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-17 14:33:11,212 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-17 14:33:11,613 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-17 14:34:06,854 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{0A43EA02-ECBE-4ADA-9588-A925DEF69B3E}' from the object store 'P8FNISDocuments'.
+2014-01-17 14:34:06,907 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-17 14:34:06,944 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-17 14:34:11,873 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-17 14:34:11,881 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-17 14:34:11,901 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocumentContent: Error retrieving document content
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 205
+2014-01-17 14:34:11,915 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocument: Error retrieving document
+System.Exception: CNO.BPA.FNP8.DocExtraction.getDocumentContent: Error retrieving document content; Value cannot be null.
+Parameter name: path1 ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 205
+   --- End of inner exception stack trace ---
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 221
+   at CNO.BPA.FNP8.DocExtraction.getDocument(IUserConnection UserConn, IDocInfo DocInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 115
+[Start of new log session]
+2014-01-17 14:56:06,504 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-17 14:56:06,520 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-17 14:56:06,524 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-17 14:56:06,532 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-17 14:56:06,537 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-17 14:56:07,404 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-17 14:56:07,769 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-17 14:56:16,388 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{0A43EA02-ECBE-4ADA-9588-A925DEF69B3E}' from the object store 'P8FNISDocuments'.
+2014-01-17 14:56:16,444 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-17 14:56:16,480 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-17 14:56:16,593 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-17 14:56:30,402 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-17 14:56:58,119 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocumentContent: Error retrieving document content
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 213
+2014-01-17 14:56:58,134 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocument: Error retrieving document
+System.Exception: CNO.BPA.FNP8.DocExtraction.getDocumentContent: Error retrieving document content; Value cannot be null.
+Parameter name: path1 ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 213
+   --- End of inner exception stack trace ---
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 233
+   at CNO.BPA.FNP8.DocExtraction.getDocument(IUserConnection UserConn, IDocInfo DocInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 115
+[Start of new log session]
+2014-01-17 15:06:23,656 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-17 15:06:23,672 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-17 15:06:23,677 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-17 15:06:23,685 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-17 15:06:23,690 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-17 15:06:24,568 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-17 15:06:24,946 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-17 15:06:29,842 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{0A43EA02-ECBE-4ADA-9588-A925DEF69B3E}' from the object store 'P8FNISDocuments'.
+2014-01-17 15:06:29,883 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-17 15:06:30,331 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-17 15:06:30,519 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-17 15:06:30,524 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+[Start of new log session]
+2014-01-21 19:18:14,698 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-21 19:18:14,738 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-21 19:18:14,767 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-21 19:18:14,775 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-21 19:18:14,780 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-21 19:18:16,328 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-21 19:18:28,712 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-21 19:18:28,717 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-21 19:18:28,721 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-21 19:18:28,726 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-21 19:18:28,730 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-21 19:18:28,823 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-21 19:21:14,141 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-21 19:21:14,146 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-21 19:21:14,150 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-21 19:21:14,155 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-21 19:21:14,159 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-21 19:21:14,316 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+[Start of new log session]
+2014-01-21 19:22:50,202 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-21 19:22:50,207 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-21 19:22:50,212 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-21 19:22:50,216 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-21 19:22:50,221 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-21 19:22:50,318 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+[Start of new log session]
+2014-01-21 19:24:45,996 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-21 19:24:46,000 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-21 19:24:46,005 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-21 19:24:46,010 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-21 19:24:46,014 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-21 19:24:46,125 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-21 19:35:22,117 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-21 19:35:22,133 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-21 19:35:22,133 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-21 19:35:22,148 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-21 19:35:22,148 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-21 19:35:23,053 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 14:21:53,392 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 14:21:53,447 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 14:21:53,459 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 14:21:53,467 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 14:21:53,472 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 14:21:56,752 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 14:22:01,979 [8] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 14:22:02,014 [8] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 14:22:02,287 [8] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 14:22:02,292 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 14:22:02,330 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 14:22:02,366 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 14:22:02,519 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 14:22:02,524 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 14:24:55,251 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 14:24:55,256 [8] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: \\v_blc_t_filenetsnaplock.nfs.conseco.stg\vol\v_blc_t_filenetsnaplock.
+2014-01-23 14:24:55,531 [8] ERROR CNO.BPA.FNP8.DocExtraction - getDocumentContent: Error retrieving document content
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 222
+2014-01-23 14:24:55,584 [8] ERROR CNO.BPA.FNP8.DocExtraction - getDocument: Error retrieving document
+System.Exception: CNO.BPA.FNP8.DocExtraction.getDocumentContent: Error retrieving document content; Value cannot be null.
+Parameter name: path1 ---> System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 222
+   --- End of inner exception stack trace ---
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 240
+   at CNO.BPA.FNP8.DocExtraction.getDocument(IUserConnection UserConn, IDocInfo DocInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 119
+[Start of new log session]
+2014-01-23 14:27:30,807 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 14:27:30,823 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 14:27:30,828 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 14:27:30,836 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 14:27:30,841 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 14:27:31,679 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 14:27:32,102 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 14:27:32,136 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 14:27:32,419 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 14:27:32,424 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 14:27:32,464 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 14:27:32,499 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 14:27:32,700 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 14:27:32,706 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 14:27:32,712 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 14:27:32,716 [9] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: D:\FileNet\Storage.
+2014-01-23 14:27:32,742 [9] DEBUG CNO.BPA.FNP8.DocExtraction - There were 1 content elements extracted.
+2014-01-23 14:27:32,746 [9] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+2014-01-23 14:27:32,751 [9] INFO  CNO.BPA.FNP8.DocExtraction - Extraction complete returning an array of 1 file(s).
+[Start of new log session]
+2014-01-23 14:27:50,055 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 14:27:50,060 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 14:27:50,064 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 14:27:50,069 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 14:27:50,074 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 14:27:50,169 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 14:27:50,258 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 14:27:50,284 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 14:27:50,486 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 14:27:50,491 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 14:27:50,542 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 14:27:50,580 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 14:27:50,744 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 14:27:50,749 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 14:27:50,754 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 14:27:50,758 [9] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: D:\FileNet\Storage.
+2014-01-23 14:27:50,764 [9] DEBUG CNO.BPA.FNP8.DocExtraction - There were 1 content elements extracted.
+2014-01-23 14:27:50,768 [9] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+2014-01-23 14:27:50,773 [9] INFO  CNO.BPA.FNP8.DocExtraction - Extraction complete returning an array of 1 file(s).
+[Start of new log session]
+2014-01-23 14:28:25,686 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 14:28:25,691 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 14:28:25,695 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 14:28:25,700 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 14:28:25,705 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 14:28:25,800 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 14:28:25,890 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 14:28:25,917 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 14:28:26,109 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 14:28:26,114 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 14:28:26,158 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 14:28:26,194 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 14:28:26,322 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 14:28:26,327 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 14:28:26,332 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 14:28:26,336 [9] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: D:\FileNet\Storage.
+2014-01-23 14:28:26,341 [9] DEBUG CNO.BPA.FNP8.DocExtraction - There were 1 content elements extracted.
+2014-01-23 14:28:26,346 [9] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+2014-01-23 14:28:26,351 [9] INFO  CNO.BPA.FNP8.DocExtraction - Extraction complete returning an array of 1 file(s).
+[Start of new log session]
+2014-01-23 14:29:40,630 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 14:29:40,635 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 14:29:40,640 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 14:29:40,645 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 14:29:40,650 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 14:29:40,742 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 14:29:40,838 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 14:29:40,865 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 14:29:41,050 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 14:29:41,055 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 14:29:41,101 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 14:29:41,140 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 14:29:41,269 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 14:29:41,274 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 14:29:41,320 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 14:29:41,325 [9] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: D:\FileNet\Storage.
+[Start of new log session]
+2014-01-23 15:09:36,550 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 15:09:36,566 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 15:09:36,571 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 15:09:36,579 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 15:09:36,585 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 15:09:37,524 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 15:09:37,927 [8] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 15:09:37,961 [8] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 15:09:38,146 [8] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 15:09:38,151 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 15:09:38,464 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 15:09:38,500 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 15:09:38,608 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 15:09:38,613 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 15:09:38,619 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 15:09:38,624 [8] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: D:\FileNet\Storage.
+[Start of new log session]
+2014-01-23 15:34:27,790 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 15:34:27,806 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 15:34:27,812 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 15:34:27,820 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 15:34:27,825 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 15:34:29,761 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 15:34:30,191 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 15:34:30,225 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 15:34:30,426 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 15:34:30,431 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 15:34:30,476 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 15:34:30,513 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 15:34:30,640 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 15:34:30,651 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 15:34:30,657 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 15:34:30,662 [9] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: D:\FileNet\Storage.
+2014-01-23 15:34:57,194 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocumentContent: Error retrieving document content
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 226
+2014-01-23 15:34:57,207 [9] ERROR CNO.BPA.FNP8.DocExtraction - The document referenced by: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311 could not be found at either: /r/n/r/n OR /r/nD:\FileNet\Storage
+2014-01-23 15:34:57,211 [9] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+2014-01-23 15:35:38,557 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocument: Error retrieving document
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at CNO.BPA.FNP8.DocExtraction.getDocument(IUserConnection UserConn, IDocInfo DocInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 147
+[Start of new log session]
+2014-01-23 16:09:07,033 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 16:09:07,050 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 16:09:07,056 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 16:09:07,065 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 16:09:07,070 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 16:09:08,083 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 16:09:08,475 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 16:09:08,509 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 16:09:08,703 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 16:09:08,709 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 16:09:08,758 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 16:09:08,797 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 16:09:08,922 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 16:09:08,928 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 16:09:08,933 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 16:09:08,938 [9] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: D:\FileNet\Storage.
+2014-01-23 16:09:14,727 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocumentContent: Error retrieving document content
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 226
+2014-01-23 16:09:14,739 [9] ERROR CNO.BPA.FNP8.DocExtraction - The document referenced by: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311 could not be found at either: /r/n/r/n OR /r/nD:\FileNet\Storage
+2014-01-23 16:09:14,745 [9] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+2014-01-23 16:09:14,753 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocument: Error retrieving document
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at CNO.BPA.FNP8.DocExtraction.getDocument(IUserConnection UserConn, IDocInfo DocInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 147
+[Start of new log session]
+2014-01-23 16:15:45,681 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 16:15:45,697 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 16:15:45,706 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 16:15:45,715 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 16:15:45,728 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 16:15:46,602 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 16:15:47,027 [8] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 16:15:47,063 [8] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 16:15:47,356 [8] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 16:15:47,362 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 16:15:47,407 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 16:15:47,447 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 16:15:47,585 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 16:15:47,609 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 16:15:47,616 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 16:15:47,621 [8] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: D:\FileNet\Storage.
+2014-01-23 16:15:47,634 [8] ERROR CNO.BPA.FNP8.DocExtraction - getDocumentContent: Error retrieving document content
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 229
+2014-01-23 16:15:47,646 [8] ERROR CNO.BPA.FNP8.DocExtraction - The document referenced by: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311 could not be found at either: 
+
+ OR 
+D:\FileNet\Storage
+2014-01-23 16:15:47,651 [8] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.

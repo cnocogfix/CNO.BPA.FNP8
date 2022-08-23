@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CNO.BPA.FNP8</name>
+    </assembly>
+    <members>
+        <member name="M:CNO.BPA.FNP8.DataHandler.DataAccess.Connect">
+            <summary>
+            Connects and logs in to the database, and begins a transaction.
+            </summary>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DataHandler.DataAccess.Disconnect">
+            <summary>
+            Commits the current transaction and disconnects from the database.
+            </summary>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DataHandler.DataAccess.Commit">
+            <summary>
+            Commits all of the data changes to the database.
+            </summary>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DataHandler.DataAccess.Cancel">
+            <summary>
+            Cancels the transaction and voids any changes to the database.
+            </summary>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DataHandler.DataAccess.GenerateCommand(System.String,System.Data.CommandType)">
+            <summary>
+            Generates the command object and associates it with the current transaction object
+            </summary>
+            <param name="commandText"></param>
+            <param name="commandType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CNO.BPA.FNP8.DataHandler.DBUtilities">
+            <summary>
+            Provides some utility functions for working with the database.
+            </summary>
+            <author>Brian E Harvey</author>
+            <description></description>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DataHandler.DBUtilities.CreateAndAddParameter(System.String,System.Object,Oracle.ManagedDataAccess.Client.OracleDbType,System.Data.ParameterDirection,System.Int32,Oracle.ManagedDataAccess.Client.OracleCommand)">
+            <summary>
+            Creates a new parameter for a command
+            </summary>
+            <param name="name"></param>
+            <param name="value"></param>
+            <param name="type"></param>
+            <param name="direction"></param>
+            <param name="size"></param>
+            <param name="command"></param>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DataHandler.DBUtilities.CreateAndAddParameter(System.String,System.Object,Oracle.ManagedDataAccess.Client.OracleDbType,System.Data.ParameterDirection,Oracle.ManagedDataAccess.Client.OracleCommand)">
+            <summary>
+            Creates a new parameter for a command
+            </summary>
+            <param name="name"></param>
+            <param name="value"></param>
+            <param name="type"></param>
+            <param name="direction"></param>
+            <param name="command"></param>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DataHandler.DBUtilities.CreateAndAddParameter(System.String,Oracle.ManagedDataAccess.Client.OracleDbType,System.Data.ParameterDirection,Oracle.ManagedDataAccess.Client.OracleCommand)">
+            <summary>
+            Creates a new parameter for a command
+            </summary>
+            <param name="name"></param>
+            <param name="type"></param>
+            <param name="direction"></param>
+            <param name="command"></param>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DataHandler.DBUtilities.CreateAndAddParameter(System.String,Oracle.ManagedDataAccess.Client.OracleDbType,System.Data.ParameterDirection,System.Int32,Oracle.ManagedDataAccess.Client.OracleCommand)">
+            <summary>
+            Creates a new parameter for a command
+            </summary>
+            <param name="name"></param>
+            <param name="type"></param>
+            <param name="direction"></param>
+            <param name="size"></param>
+            <param name="command"></param>
+        </member>
+        <member name="T:CNO.BPA.FNP8.DocDelete">
+            <summary>
+            FNP8.DocDelete class allows for deleting content elements from P8 
+            </summary>   
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocDelete.#ctor">
+            <summary>
+            FNP8.DocDelete class allows for deleting content elements from P8 
+            </summary>   
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocDelete.getObjectStore(System.String,CNO.BPA.FNP8.IUserConnection)">
+            <summary>
+            This method accepts the name of an object store  
+            and returns an instance of that object store
+            </summary>
+            <param name="objectStoreName">The name of the ObjectStore to return</param>         
+            <param name="userConn">A user connection object</param>   
+            <returns> IObjectStore object</returns>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocDelete.deleteContentElement(CNO.BPA.FNP8.IUserConnection,CNO.BPA.FNP8.IDocInfo)">
+            <summary>
+            Deletes the content element specified.
+            </summary>
+            <param name="UserConn">A user connection object.</param>
+            <param name="DocInfo">A document info object.</param>
+            <returns></returns>
+        </member>
+        <member name="T:CNO.BPA.FNP8.DocExtraction">
+            <summary>
+            FNP8.DocExtraction class allows for extracting documents from P8 
+            </summary> 
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocExtraction.#ctor">
+            <summary>
+            FNP8.DocExtraction class allows for extracting documents from P8 
+            </summary>   
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocExtraction.getObjectStore(System.String,CNO.BPA.FNP8.IUserConnection)">
+            <summary>
+            This method accepts the name of an object store  
+            and returns an instance of that object store
+            </summary>
+            <param name="objectStoreName">The name of the ObjectStore to return</param>         
+            <returns> IObjectStore object</returns>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocExtraction.getDocument(CNO.BPA.FNP8.IUserConnection,CNO.BPA.FNP8.IDocInfo)">
+            <summary>
+            Returns an array of memory streams containing the document.
+            </summary>
+            <param name="UserConn">A user connection object.</param>
+            <param name="DocInfo">A document info object.</param>
+            <returns>A memorty stream containing the document.</returns>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocExtraction.getDocumentContent(FileNet.Api.Core.IDocument,System.String,CNO.BPA.FNP8.IDocInfo)">
+            <summary>
+            Returns the content of each page of CE document. 
+            The document content elements can be of type IContentTransfer 
+            or IContentReference.
+            In the case of IContentReference, the method calls 
+            the MOD DLL to decode the reference and retrieve the content 
+            referenced 
+            </summary>
+            <param name="document">A CE document object.</param>
+            <param name="DocInfo">A document info object.</param>
+            <returns>The binary representation of the pages of the document.</returns>
+        </member>
+        <member name="T:CNO.BPA.FNP8.DocSearch">
+            <summary>
+            FNP8.DocSearch class allows for searching for documents in P8 
+            </summary> 
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocSearch.#ctor">
+            <summary>
+            FNP8.DocSearch class allows for searching for documents in P8 
+            </summary>   
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocSearch.getObjectStore(System.String,CNO.BPA.FNP8.IUserConnection)">
+            <summary>
+            This method accepts the name of an object store  
+            and returns an instance of that object store
+            </summary>
+            <param name="objectStoreName">The name of the ObjectStore to return</param>         
+            <param name="userConn">A user connection object</param>        
+            <returns> IObjectStore object</returns>
+        </member>
+        <member name="T:CNO.BPA.FNP8.DocUpdate">
+            <summary>
+            FNP8.DocUpdate class allows for updating documents in P8 
+            </summary>  
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocUpdate.#ctor">
+            <summary>
+            FNP8.DocUpdate class allows for updating documents in P8 
+            </summary>   
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocUpdate.getObjectStore(System.String,CNO.BPA.FNP8.IUserConnection)">
+            <summary>
+            This method accepts the name of an object store  
+            and returns an instance of that object store
+            </summary>
+            <param name="objectStoreName">The name of the ObjectStore to return</param>         
+            <param name="userConn">A user connection object</param>   
+            <returns> IObjectStore object</returns>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocUpdate.updateDocument(CNO.BPA.FNP8.IUserConnection,CNO.BPA.FNP8.IDocInfo)">
+            <summary>
+            Updates the document properties.
+            </summary>
+            <param name="UserConn">A user connection object.</param>
+            <param name="DocInfo">A document info object.</param>
+            <returns>A string indicating success or reason for failure.</returns>
+        </member>
+        <member name="T:CNO.BPA.FNP8.UserConnection">
+            <summary>
+            FNP8.Connection class allows for establishing a connection to P8
+            </summary> 
+        </member>
+        <member name="M:CNO.BPA.FNP8.UserConnection.#ctor">
+            <summary>
+            FNP8.Connection class allows for establishing a connection to P8
+            </summary>    
+        </member>
+        <member name="M:CNO.BPA.FNP8.UserConnection.logon(System.String,System.String,System.String,System.String)">
+            <summary>
+            Obtains an Iconnection object and an IDomain object 
+            required for interacting with the P8 repository
+            </summary>     
+            <param name="uri">The Universal Resource Identity (URI) of the P8 system to connect to</param>
+            <param name="domain">The name of the domain to connect to</param>
+            <param name="user">The encrypted user credential to login with</param>
+            <param name="pass">The encrypted password for the user credential</param>  
+        </member>
+        <member name="M:CNO.BPA.FNP8.UserConnection.getConnection(System.String,System.String,System.String)">
+            <summary>
+            This method requires the caller to pass in the elements neccessary  
+            to create a connection to the P8 content engine
+            </summary>
+            <param name="uri">The Universal Resource Identity (URI) for this connection</param>
+            <param name="user">The user to use for this connection</param>
+            <param name="pword">The password to use for this connection</param>
+            <returns> IConnection object</returns>
+        </member>
+        <member name="M:CNO.BPA.FNP8.UserConnection.getDomain(FileNet.Api.Core.IConnection,System.String)">
+            <summary>
+            This method requires the caller to pass in the elements neccessary  
+            to return the P8 domain to interact with
+            </summary>
+            <param name="conn">The handle to an IConnection</param>
+            <param name="domainName">The domain to return</param>      
+            <returns> IDomain object</returns>
+        </member>
+        <member name="T:CNO.BPA.FNP8.DocSecurity">
+            <summary>
+            FNP8.DocSecurity class allows for applying the appropriate security template for legalhold and legalsecure documents
+            </summary> 
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocSecurity.#ctor">
+            <summary>
+            FNP8.DocSecurity class allows for applying the appropriate security template for legalhold and legalsecure documents
+            </summary>  
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocSecurity.getObjectStore(System.String,CNO.BPA.FNP8.IUserConnection)">
+            <summary>
+            This method accepts the name of an object store  
+            and returns an instance of that object store
+            </summary>
+            <param name="objectStoreName">The name of the ObjectStore to return</param>   
+            <param name="userConn">A user connection object</param>   
+            <returns> IObjectStore object</returns>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocSecurity.SetLegalHold(CNO.BPA.FNP8.IUserConnection,CNO.BPA.FNP8.IDocInfo)">
+            <summary>
+            This method will change the security of all versions of the supplied document to be
+            on legal hold. The document info object must contain either an F_DOCNUMBER or the
+            Version Series ID and the object store name.
+            </summary>
+            <param name="userConn">A user connection object</param>
+            <param name="docInfo">A document info object</param>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocSecurity.SetNormal(CNO.BPA.FNP8.IUserConnection,CNO.BPA.FNP8.IDocInfo)">
+            <summary>
+            This method will change the security of all versions of the supplied document to the
+            normal state of security within the document's document class. The document info object
+            must contain either an F_DOCNUMBER or the Version Series ID and the object store name.
+            </summary>
+            <param name="userConn">A user connection object</param>
+            <param name="docInfo">A document info object</param>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocSecurity.SetLegalSecure(CNO.BPA.FNP8.IUserConnection,CNO.BPA.FNP8.IDocInfo)">
+            <summary>
+            This method will change the security of all versions of the supplied document to be
+            unsecured and available to all users to view. The document info object must contain 
+            either an F_DOCNUMBER or the Version Series ID and the object store name.
+            </summary>
+            <param name="userConn">A user connection object</param>
+            <param name="docInfo">A document info object</param>
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocSecurity.GetCurrentSecurity(CNO.BPA.FNP8.IUserConnection,CNO.BPA.FNP8.IDocInfo)">
+            <summary>
+            This method will get the current security of the current version of the supplied
+            document. The document info object must contain either an F_DOCNUMBER or the 
+            Version Series ID and the object store name.
+            </summary>
+            <param name="userConn">A user connection object</param>
+            <param name="docInfo">A document info object</param>
+        </member>
+        <member name="T:CNO.BPA.FNP8.DocInfo">
+            <summary>
+            FNP8.DocInfo class is used to pass data back and forth with the caller.
+            </summary> 
+        </member>
+        <member name="T:CNO.BPA.FNP8.DocCreate">
+            <summary>
+            FNP8.DocCreate class allows for committing documents to P8 
+            </summary>  
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocCreate.#ctor">
+            <summary>
+            FNP8.DocCreate class allows for committing documents to P8 
+            </summary>    
+        </member>
+        <member name="M:CNO.BPA.FNP8.DocCreate.getObjectStore(System.String,CNO.BPA.FNP8.IUserConnection)">
+            <summary>
+            This method accepts the name of an object store  
+            and returns an instance of that object store
+            </summary>
+            <param name="objectStoreName">The name of the ObjectStore to return</param>         
+            <param name="userConn">A user connection object</param>   
+            <returns> IObjectStore object</returns>
+        </member>
+        <member name="T:CNO.BPA.FNP8.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CNO.BPA.FNP8.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CNO.BPA.FNP8.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

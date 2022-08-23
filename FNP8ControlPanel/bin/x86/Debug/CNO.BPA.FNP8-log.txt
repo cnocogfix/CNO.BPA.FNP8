@@ -1,0 +1,141 @@
+[Start of new log session]
+2014-01-31 13:51:12,576 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-31 13:51:12,587 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-31 13:51:12,604 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-31 13:51:12,611 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-31 13:51:12,617 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-31 13:51:15,407 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+2014-01-31 13:51:15,415 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-31 13:51:15,480 [9] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+[Start of new log session]
+2014-01-31 14:15:38,348 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-31 14:15:38,351 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-31 14:15:38,354 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-31 14:15:38,358 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-31 14:15:38,361 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-31 14:15:39,010 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+2014-01-31 14:15:39,013 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-31 14:15:39,271 [9] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+[Start of new log session]
+2014-02-19 13:52:34,745 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-02-19 13:52:34,776 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-02-19 13:52:34,823 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-02-19 13:52:34,823 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-02-19 13:52:34,839 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-02-19 13:52:35,993 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-02-19 13:52:36,024 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-02-19 13:52:36,087 [9] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+2014-02-19 13:52:36,227 [9] DEBUG CNO.BPA.FNP8.DocUpdate - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-02-19 13:52:36,258 [9] DEBUG CNO.BPA.FNP8.DocUpdate - ObjectStore retrieved successfully.
+2014-02-19 14:02:20,478 [9] ERROR CNO.BPA.FNP8.DocUpdate - CNO.BPA.FNP8.DocExtraction.getDocument: Error retrieving document; 
+System.InvalidCastException: Specified cast is not valid.
+   at CNO.BPA.FNP8.DocUpdate.updateDocument(IUserConnection UserConn, IDocInfo DocInfo)
+[Start of new log session]
+2014-02-19 14:02:29,557 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-02-19 14:02:29,557 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-02-19 14:02:29,573 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-02-19 14:02:29,573 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-02-19 14:02:29,588 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-02-19 14:02:29,760 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-02-19 14:02:29,791 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-02-19 14:02:29,838 [9] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+2014-02-19 14:02:29,947 [9] DEBUG CNO.BPA.FNP8.DocUpdate - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-02-19 14:02:29,994 [9] DEBUG CNO.BPA.FNP8.DocUpdate - ObjectStore retrieved successfully.
+2014-02-19 14:02:51,219 [9] ERROR CNO.BPA.FNP8.DocUpdate - CNO.BPA.FNP8.DocExtraction.getDocument: Error retrieving document; 
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'System.String'.
+   at CNO.BPA.FNP8.DocUpdate.updateDocument(IUserConnection UserConn, IDocInfo DocInfo)
+[Start of new log session]
+2014-02-19 14:03:03,200 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-02-19 14:03:03,200 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-02-19 14:03:03,200 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-02-19 14:03:03,215 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-02-19 14:03:03,215 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-02-19 14:03:03,325 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-02-19 14:03:03,356 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-02-19 14:03:03,403 [9] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+2014-02-19 14:03:03,512 [9] DEBUG CNO.BPA.FNP8.DocUpdate - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-02-19 14:03:03,559 [9] DEBUG CNO.BPA.FNP8.DocUpdate - ObjectStore retrieved successfully.
+2014-02-19 14:06:17,916 [9] ERROR CNO.BPA.FNP8.DocUpdate - CNO.BPA.FNP8.DocExtraction.getDocument: Error retrieving document; 
+ ExceptionCode=E_DATATYPE_MISMATCH  Id=FNRCE0018  Class=FileNet.Api.Exception.ErrorRecord Source=com.filenet.api.exception.EngineRuntimeException Description=The method invoked is inappropriate for the datatype of the property. The property Soc_Sec_No expects the datatype to be java.lang.Integer, but the input value is java.lang.String. stackTrace=at com.filenet.engine.persist.PersisterBase.validatePropertyValue(PersisterBase.java:808)
+	at com.filenet.engine.persist.PersisterBase.buildInsertOrUpdateStatementsHelper(PersisterBase.java:475)
+	at com.filenet.engine.persist.PersisterBase.buildUpdateStatements(PersisterBase.java:400)
+	at com.filenet.engine.persist.IndependentPersister.buildUpdateStatements(IndependentPersister.java:824)
+	at com.filenet.engine.persist.ContainablePersister.buildUpdateStatements(ContainablePersister.java:105)
+	at com.filenet.engine.persist.WithContentPersister.buildUpdateStatements(WithContentPersister.java:570)
+	at com.filenet.engine.persist.VersionablePersister.buildUpdateStatements(VersionablePersister.java:360)
+	at com.filenet.engine.persist.PersisterBase.preExecuteChange(PersisterBase.java:263)
+	at com.filenet.engine.persist.IndependentPersister.preExecuteChange(IndependentPersister.java:500)
+	at com.filenet.engine.persist.SubscribablePersister.preExecuteChange(SubscribablePersister.java:273)
+	at com.filenet.engine.persist.ReplicablePersister.preExecuteChange(ReplicablePersister.java:125)
+	at com.filenet.engine.persist.ContainablePersister.preExecuteChange(ContainablePersister.java:93)
+	at com.filenet.engine.persist.WithContentPersister.preExecuteChange(WithContentPersister.java:523)
+	at com.filenet.engine.persist.VersionablePersister.preExecuteChange(VersionablePersister.java:236)
+	at com.filenet.engine.persist.IndependentPersister.executeChangeWork(IndependentPersister.java:393)
+	at com.filenet.engine.persist.IndependentPersister.executeChange(IndependentPersister.java:229)
+	at com.filenet.engine.persist.SubscribablePersister.executeChange(SubscribablePersister.java:172)
+	at com.filenet.engine.jca.impl.RequestBrokerImpl.executeChanges(RequestBrokerImpl.java:1278)
+	at com.filenet.engine.jca.impl.RequestBrokerImpl.executeChanges(RequestBrokerImpl.java:1158)
+	at com.filenet.engine.ejb.EngineCoreBean._executeChanges(EngineCoreBean.java:618)
+	at com.filenet.engine.ejb.EngineCoreBean.executeChanges(EngineCoreBean.java:586)
+	at com.filenet.engine.ejb.EJSLocalStatelessEngineCore_22877cb1.executeChanges(Unknown Source)
+	at com.filenet.engine.ejb.EngineBean.executeChanges(EngineBean.java:832)
+	at com.filenet.apiimpl.transport.ejbstubs.EJSLocalStatelessEngine_2e64c374.executeChanges(Unknown Source)
+	at com.filenet.apiimpl.transport.ejb.EnginePortLocal.executeChanges(EnginePortLocal.java:53)
+	at com.filenet.apiimpl.wsi.ServiceSessionNst$2.run(ServiceSessionNst.java:1224)
+	at java.security.AccessController.doPrivileged(AccessController.java:310)
+	at javax.security.auth.Subject.doAs(Subject.java:573)
+	at com.ibm.websphere.security.auth.WSSubject.doAs(WSSubject.java:194)
+	at com.ibm.websphere.security.auth.WSSubject.doAs(WSSubject.java:151)
+	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:600)
+	at com.filenet.apiimpl.util.J2EEUtilWS.doAs(J2EEUtilWS.java:215)
+	at com.filenet.apiimpl.wsi.ServiceSessionNst.sMakeInternalEJBCall(ServiceSessionNst.java:1077)
+	at com.filenet.apiimpl.wsi.ServiceSessionNst.sHandleIncomingRequest(ServiceSessionNst.java:997)
+	at com.filenet.engine.wsi.ListenerNst.service(ListenerNst.java:163)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:831)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1661)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:944)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:507)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:181)
+	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:91)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:878)
+	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1592)
+	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:191)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:453)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:515)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:306)
+	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.ready(HttpInboundLink.java:277)
+	at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.sendToDiscriminators(NewConnectionInitialReadCallback.java:214)
+	at com.ibm.ws.tcp.channel.impl.NewConnectionInitialReadCallback.complete(NewConnectionInitialReadCallback.java:113)
+	at com.ibm.ws.tcp.channel.impl.AioReadCompletionListener.futureCompleted(AioReadCompletionListener.java:175)
+	at com.ibm.io.async.AbstractAsyncFuture.invokeCallback(AbstractAsyncFuture.java:217)
+	at com.ibm.io.async.AsyncChannelFuture.fireCompletionActions(AsyncChannelFuture.java:161)
+	at com.ibm.io.async.AsyncFuture.completed(AsyncFuture.java:138)
+	at com.ibm.io.async.ResultHandler.complete(ResultHandler.java:204)
+	at com.ibm.io.async.ResultHandler.runEventProcessingLoop(ResultHandler.java:775)
+	at com.ibm.io.async.ResultHandler$2.run(ResultHandler.java:905)
+	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1656) exceptionCode=E_DATATYPE_MISMATCH failedBatchItem=0
+
+Client Trace:
+   at FileNet.Apiimpl.Wsi.SoapSessionWSE.HandleException(Exception exc, Int32& Retries)
+   at FileNet.Apiimpl.Wsi.SoapSession.ExecuteChanges(ConnectionImpl conn, RefreshMode refreshMode, BatchItemHandleImpl[] batchItems)
+   at FileNet.Apiimpl.Core.Session.ExecuteChange(IndependentlyPersistableObjectImpl objToUpdate, PropertyFilter filter, RefreshMode refreshMode)
+   at FileNet.Apiimpl.Core.IndependentlyPersistableObjectImpl.Save(RefreshMode refreshMode, PropertyFilter filter)
+   at FileNet.Apiimpl.Core.IndependentlyPersistableObjectImpl.Save(RefreshMode refreshMode)
+   at CNO.BPA.FNP8.DocUpdate.updateDocument(IUserConnection UserConn, IDocInfo DocInfo)
+[Start of new log session]
+2014-02-19 14:08:33,727 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-02-19 14:08:33,742 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-02-19 14:08:33,742 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-02-19 14:08:33,758 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-02-19 14:08:33,758 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-02-19 14:08:33,961 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-02-19 14:08:33,992 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-02-19 14:08:34,039 [9] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+2014-02-19 14:08:34,179 [9] DEBUG CNO.BPA.FNP8.DocUpdate - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-02-19 14:08:34,210 [9] DEBUG CNO.BPA.FNP8.DocUpdate - ObjectStore retrieved successfully.

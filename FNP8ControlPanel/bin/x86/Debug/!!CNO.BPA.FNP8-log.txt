@@ -1,0 +1,444 @@
+[Start of new log session]
+2014-01-23 16:19:19,678 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 16:19:19,691 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 16:19:19,694 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 16:19:19,699 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 16:19:19,702 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 16:19:20,513 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-23 16:19:20,910 [9] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 16:19:20,931 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 16:19:21,126 [9] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 16:19:21,129 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 16:19:21,166 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 16:19:21,199 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 16:19:21,302 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 16:19:21,305 [9] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 16:19:21,309 [9] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 16:19:21,311 [9] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: D:\FileNet\Storage.
+2014-01-23 16:19:21,322 [9] ERROR CNO.BPA.FNP8.DocExtraction - getDocumentContent: Error retrieving document content
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 229
+2014-01-23 16:19:21,332 [9] ERROR CNO.BPA.FNP8.DocExtraction - The document referenced by: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311 could not be found at either: 
+ MSAR Location:
+ OR 
+ SnapLock Location:D:\FileNet\Storage
+2014-01-23 16:19:21,334 [9] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+[Start of new log session]
+2014-01-23 16:31:19,518 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-23 16:31:19,532 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-23 16:31:19,535 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-23 16:31:19,542 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-23 16:31:19,545 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-23 16:31:20,893 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-23 16:31:20,917 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to instantiate a new DataAccess object
+[Start of new log session]
+2014-01-23 16:31:20,944 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call selectAppConfigValues
+2014-01-23 16:31:21,303 [8] DEBUG CNO.BPA.FNP8.DocExtraction - selectAppConfigValues returned with 75 rows returned.
+2014-01-23 16:31:21,309 [8] INFO  CNO.BPA.FNP8.DocExtraction - An F_DOCNUMBER was passed of '789258' so a search must first be performed
+[Start of new log session]
+2014-01-23 16:31:21,335 [8] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 16:31:21,560 [8] INFO  CNO.BPA.FNP8.DocExtraction - Preparing to extract version series id of '{4A876E99-A803-4B47-9D88-48821D5768EF}' from the object store 'P8FNISDocuments'.
+2014-01-23 16:31:21,567 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-23 16:31:21,607 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Object store reference has been obtained, preparing to fetch an instance of the version series.
+2014-01-23 16:31:21,651 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Version Series reference has been obtained, preparting to call the getDocumentContent method.
+2014-01-23 16:31:21,843 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to loop through the content elements of the document.
+2014-01-23 16:31:21,847 [8] DEBUG CNO.BPA.FNP8.DocExtraction - The document being extracted is an IContentReference element.
+2014-01-23 16:31:21,852 [8] DEBUG CNO.BPA.FNP8.DocExtraction - Preparing to call the RetrievePage method for reference: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311.
+2014-01-23 16:31:21,856 [8] DEBUG CNO.BPA.FNP8.DocExtraction - SnapLock locations to be searched include: D:\FileNet\Storage.
+2014-01-23 16:31:21,867 [8] ERROR CNO.BPA.FNP8.DocExtraction - getDocumentContent: Error retrieving document content
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path1
+   at System.IO.Path.Combine(String path1, String path2)
+   at MigrateODService.Util.SsarUtil.GetSDSDocPath(Int64 docId, String root)
+   at MigrateODService.Readers.SSARReader.GetFileBytes(String surfaceid, Int64 docId, Int64 bytePosition, Int32 pageNumberOrLength, String storageType)
+   at MigrateODService.RetrieveDocumentContent.RetrievePage(String reference, String urls)
+   at CNO.BPA.FNP8.DocExtraction.getDocumentContent(IDocument document, String location, IDocInfo docInfo) in C:\Users\cdpeha\Documents\Visual Studio 2008\Projects\CNO.BPA.FNP8\trunk\CNO.BPA.FNP8\DocExtraction.cs:line 234
+2014-01-23 16:31:21,878 [8] ERROR CNO.BPA.FNP8.DocExtraction - The document referenced by: SC789258|,|1|,|text/plain|,|412_mailitem-1.txt|,|3082|,|SDS|,|368|,|311 could not be found at either: 
+ MSAR Location:
+ OR 
+ SnapLock Location:D:\FileNet\Storage
+2014-01-23 16:31:21,882 [8] DEBUG CNO.BPA.FNP8.DocExtraction - getDocumentContent has returned.
+[Start of new log session]
+2014-01-25 08:32:24,256 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:32:24,293 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:32:24,306 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:32:24,313 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:32:24,317 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:32:28,940 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 08:32:28,987 [8] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+[Start of new log session]
+2014-01-25 08:32:42,858 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:32:42,862 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:32:42,865 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:32:42,869 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:32:42,872 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:32:43,031 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 08:32:43,057 [8] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+[Start of new log session]
+2014-01-25 08:33:33,451 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:33:33,455 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:33:33,459 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:33:33,463 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:33:33,467 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:33:33,575 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-25 08:34:03,598 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:34:03,601 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:34:03,605 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:34:03,609 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:34:03,612 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:34:03,739 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 08:34:20,781 [8] INFO  CNO.BPA.FNP8.DocDelete - A document GUID of '{9C96842C-0B04-47DA-9FD2-DD5825E55A2A}' was passed in for deletion.
+[Start of new log session]
+2014-01-25 08:36:28,892 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:36:28,895 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:36:28,899 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:36:28,903 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:36:28,907 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:36:29,014 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-25 08:39:12,198 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:39:12,202 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:39:12,206 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:39:12,211 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:39:12,215 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:39:12,401 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+[Start of new log session]
+2014-01-25 08:40:09,296 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:40:09,300 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:40:09,304 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:40:09,308 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:40:09,312 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:40:09,401 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 08:40:09,425 [8] INFO  CNO.BPA.FNP8.DocSecurity - An F_DOCNUMBER was passed of '248989' so a search must first be performed
+[Start of new log session]
+2014-01-25 08:40:09,446 [8] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-25 08:40:09,671 [8] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+[Start of new log session]
+2014-01-25 08:43:48,388 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:43:48,392 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:43:48,396 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:43:48,400 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:43:48,404 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:43:48,490 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 08:43:48,523 [8] INFO  CNO.BPA.FNP8.DocSecurity - An F_DOCNUMBER was passed of '248989' so a search must first be performed
+[Start of new log session]
+2014-01-25 08:43:48,543 [8] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-25 08:43:48,829 [8] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+[Start of new log session]
+2014-01-25 08:44:54,236 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:44:54,241 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:44:54,245 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:44:54,250 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:44:54,255 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:44:54,436 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 08:44:54,458 [8] INFO  CNO.BPA.FNP8.DocSecurity - An F_DOCNUMBER was passed of '248989' so a search must first be performed
+[Start of new log session]
+2014-01-25 08:44:54,480 [8] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-25 08:45:51,025 [8] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+[Start of new log session]
+2014-01-25 08:45:57,596 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:45:57,601 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:45:57,605 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:45:57,609 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:45:57,613 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:45:57,718 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 08:45:57,742 [8] INFO  CNO.BPA.FNP8.DocSecurity - An F_DOCNUMBER was passed of '248989' so a search must first be performed
+[Start of new log session]
+2014-01-25 08:45:57,764 [8] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-25 08:46:03,718 [8] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+[Start of new log session]
+2014-01-25 08:56:19,507 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 08:56:19,512 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 08:56:19,516 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 08:56:19,521 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 08:56:19,525 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 08:56:19,669 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 08:56:22,780 [8] INFO  CNO.BPA.FNP8.DocDelete - A document GUID of '{73C4088A-8312-4C77-9ECA-2511C832CE29}' was passed in for deletion.
+[Start of new log session]
+2014-01-25 09:00:37,043 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 09:00:37,048 [8] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 09:00:37,052 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 09:00:37,056 [8] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 09:00:37,061 [8] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 09:00:37,165 [8] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 09:25:59,658 [8] DEBUG CNO.BPA.FNP8.DocCreate - Pulling back a properties object from the new doc.
+2014-01-25 09:25:59,665 [8] DEBUG CNO.BPA.FNP8.DocCreate - Creating a dictionary of the property name value pairs that were passed in
+2014-01-25 09:25:59,670 [8] DEBUG CNO.BPA.FNP8.DocCreate - Looping through the dictionary to setup each property passed in.
+2014-01-25 09:25:59,674 [8] DEBUG CNO.BPA.FNP8.DocCreate - Calling the validProperty method for the property name of DocumentTitle and the property value of 999999
+2014-01-25 09:25:59,847 [8] DEBUG CNO.BPA.FNP8.DocCreate - The property was valid, so now we are able to add it to the properties object.
+2014-01-25 09:25:59,852 [8] DEBUG CNO.BPA.FNP8.DocCreate - Calling the validProperty method for the property name of F_DOCNUMBER and the property value of 999999
+2014-01-25 09:25:59,856 [8] DEBUG CNO.BPA.FNP8.DocCreate - The property was valid, so now we are able to add it to the properties object.
+2014-01-25 09:27:15,985 [8] DEBUG CNO.BPA.FNP8.DocCreate - Pulling back a properties object from the new doc.
+2014-01-25 09:27:15,993 [8] DEBUG CNO.BPA.FNP8.DocCreate - Creating a dictionary of the property name value pairs that were passed in
+2014-01-25 09:27:15,998 [8] DEBUG CNO.BPA.FNP8.DocCreate - Looping through the dictionary to setup each property passed in.
+2014-01-25 09:27:16,003 [8] DEBUG CNO.BPA.FNP8.DocCreate - Calling the validProperty method for the property name of DocumentTitle and the property value of 999999
+2014-01-25 09:27:16,283 [8] DEBUG CNO.BPA.FNP8.DocCreate - The property was valid, so now we are able to add it to the properties object.
+2014-01-25 09:27:22,291 [8] DEBUG CNO.BPA.FNP8.DocCreate - Calling the validProperty method for the property name of F_DOCNUMBER and the property value of 999999
+2014-01-25 09:27:22,298 [8] DEBUG CNO.BPA.FNP8.DocCreate - The property was valid, so now we are able to add it to the properties object.
+2014-01-25 09:29:10,287 [8] DEBUG CNO.BPA.FNP8.DocCreate - The property was valid, so now we are able to add it to the properties object.
+2014-01-25 09:32:41,268 [8] DEBUG CNO.BPA.FNP8.DocCreate - Pulling back a properties object from the new doc.
+2014-01-25 09:32:41,275 [8] DEBUG CNO.BPA.FNP8.DocCreate - Creating a dictionary of the property name value pairs that were passed in
+2014-01-25 09:32:41,280 [8] DEBUG CNO.BPA.FNP8.DocCreate - Looping through the dictionary to setup each property passed in.
+2014-01-25 09:32:41,284 [8] DEBUG CNO.BPA.FNP8.DocCreate - Calling the validProperty method for the property name of DocumentTitle and the property value of 999999
+2014-01-25 09:32:53,685 [8] DEBUG CNO.BPA.FNP8.DocCreate - The property was valid, so now we are able to add it to the properties object.
+2014-01-25 09:33:05,365 [8] DEBUG CNO.BPA.FNP8.DocCreate - Calling the validProperty method for the property name of F_DOCNUMBER and the property value of 999999
+2014-01-25 09:33:07,982 [8] DEBUG CNO.BPA.FNP8.DocCreate - The property was valid, so now we are able to add it to the properties object.
+[Start of new log session]
+2014-01-25 10:31:55,653 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 10:31:55,665 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 10:31:55,670 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 10:31:55,679 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 10:31:55,684 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 10:31:57,241 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 10:32:00,017 [9] DEBUG CNO.BPA.FNP8.DocCreate - Pulling back a properties object from the new doc.
+2014-01-25 10:32:00,024 [9] DEBUG CNO.BPA.FNP8.DocCreate - Creating a dictionary of the property name value pairs that were passed in
+2014-01-25 10:32:00,029 [9] DEBUG CNO.BPA.FNP8.DocCreate - Looping through the dictionary to setup each property passed in.
+2014-01-25 10:32:00,033 [9] DEBUG CNO.BPA.FNP8.DocCreate - Calling the validProperty method for the property name of DocumentTitle and the property value of 999999
+2014-01-25 10:32:04,495 [9] DEBUG CNO.BPA.FNP8.DocCreate - The property was valid, so now we are able to add it to the properties object.
+2014-01-25 10:32:08,267 [9] DEBUG CNO.BPA.FNP8.DocCreate - Calling the validProperty method for the property name of Batch_Number and the property value of 2014012599999972
+2014-01-25 10:32:08,275 [9] DEBUG CNO.BPA.FNP8.DocCreate - Calling the validProperty method for the property name of Agent_Number and the property value of 999999
+2014-01-25 10:32:08,280 [9] DEBUG CNO.BPA.FNP8.DocCreate - The property was valid, so now we are able to add it to the properties object.
+2014-01-25 10:32:08,284 [9] DEBUG CNO.BPA.FNP8.DocCreate - Calling the validProperty method for the property name of Doc_Type and the property value of STMT
+2014-01-25 10:32:08,289 [9] DEBUG CNO.BPA.FNP8.DocCreate - The property was valid, so now we are able to add it to the properties object.
+2014-01-25 10:32:08,295 [9] DEBUG CNO.BPA.FNP8.DocCreate - Now we can save the new document.
+2014-01-25 10:32:09,278 [9] DEBUG CNO.BPA.FNP8.DocCreate - Once saved, we can check to see if we need to file the document in a folder.
+2014-01-25 10:32:09,283 [9] DEBUG CNO.BPA.FNP8.DocCreate - No folder was passed in.
+2014-01-25 10:32:09,338 [9] DEBUG CNO.BPA.FNP8.DocCreate - Returning the document guid ({BD352931-84FD-4EB9-AC4C-B7654013CB5E}) and also the version series id ({ECA28541-1933-4620-A303-E900E2057FB6}) to the caller.
+[Start of new log session]
+2014-01-25 10:32:46,660 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 10:32:46,664 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 10:32:46,669 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 10:32:46,673 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 10:32:46,678 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 10:32:48,484 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 10:32:49,069 [9] INFO  CNO.BPA.FNP8.DocCreate - A version series id was passed indicating the caller desires a new version be added to an existing document.
+2014-01-25 10:32:49,074 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to fetch an instance of the version series using the following id: {ECA28541-1933-4620-A303-E900E2057FB6}
+2014-01-25 10:32:49,115 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to checkout the document prior to adding the new version.
+2014-01-25 10:32:49,495 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to create the new document by calling the docSeries Reservation and casting as an IDocument.
+2014-01-25 10:32:49,572 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to create a new content transfer list object.
+2014-01-25 10:32:49,577 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to loop through each memory stream in the array of memory streams passed in.
+2014-01-25 10:32:49,581 [9] DEBUG CNO.BPA.FNP8.DocCreate - Adding the content list object to the document reservation content elements.
+2014-01-25 10:32:49,586 [9] DEBUG CNO.BPA.FNP8.DocCreate - Checking in the new version.
+2014-01-25 10:32:49,591 [9] DEBUG CNO.BPA.FNP8.DocCreate - Saving the new version.
+2014-01-25 10:32:49,948 [9] DEBUG CNO.BPA.FNP8.DocCreate - Returning the document guid ({D1AD3FE7-22DA-48F4-A538-E438F1FBA389}) and also the version series id ({ECA28541-1933-4620-A303-E900E2057FB6}) to the caller.
+[Start of new log session]
+2014-01-25 10:35:31,642 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 10:35:31,647 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 10:35:31,651 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 10:35:31,656 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 10:35:31,660 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 10:35:31,787 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 10:35:38,527 [9] INFO  CNO.BPA.FNP8.DocDelete - A document GUID of '{D1AD3FE7-22DA-48F4-A538-E438F1FBA389}' was passed in for deletion.
+[Start of new log session]
+2014-01-25 10:38:15,292 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 10:38:15,297 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 10:38:15,302 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 10:38:15,306 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 10:38:15,311 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 10:38:15,499 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 10:38:16,122 [9] INFO  CNO.BPA.FNP8.DocCreate - A version series id was passed indicating the caller desires a new version be added to an existing document.
+2014-01-25 10:38:16,127 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to fetch an instance of the version series using the following id: {ECA28541-1933-4620-A303-E900E2057FB6}
+2014-01-25 10:38:16,166 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to checkout the document prior to adding the new version.
+2014-01-25 10:38:16,253 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to create the new document by calling the docSeries Reservation and casting as an IDocument.
+2014-01-25 10:38:16,304 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to create a new content transfer list object.
+2014-01-25 10:38:16,309 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to loop through each memory stream in the array of memory streams passed in.
+2014-01-25 10:38:16,314 [9] DEBUG CNO.BPA.FNP8.DocCreate - Adding the content list object to the document reservation content elements.
+2014-01-25 10:38:16,319 [9] DEBUG CNO.BPA.FNP8.DocCreate - Checking in the new version.
+2014-01-25 10:38:16,324 [9] DEBUG CNO.BPA.FNP8.DocCreate - Saving the new version.
+2014-01-25 10:38:16,727 [9] DEBUG CNO.BPA.FNP8.DocCreate - Returning the document guid ({6A2DCD9C-1768-47E5-B5BF-C6DDF0B2D9D2}) and also the version series id ({ECA28541-1933-4620-A303-E900E2057FB6}) to the caller.
+[Start of new log session]
+2014-01-25 10:38:45,150 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 10:38:45,154 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 10:38:45,159 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 10:38:45,163 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 10:38:45,167 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 10:38:45,262 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 10:38:45,867 [9] INFO  CNO.BPA.FNP8.DocCreate - A version series id was passed indicating the caller desires a new version be added to an existing document.
+2014-01-25 10:38:45,872 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to fetch an instance of the version series using the following id: {ECA28541-1933-4620-A303-E900E2057FB6}
+2014-01-25 10:38:45,911 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to checkout the document prior to adding the new version.
+2014-01-25 10:38:45,992 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to create the new document by calling the docSeries Reservation and casting as an IDocument.
+2014-01-25 10:38:46,204 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to create a new content transfer list object.
+2014-01-25 10:38:46,209 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to loop through each memory stream in the array of memory streams passed in.
+2014-01-25 10:38:46,213 [9] DEBUG CNO.BPA.FNP8.DocCreate - Adding the content list object to the document reservation content elements.
+2014-01-25 10:38:46,218 [9] DEBUG CNO.BPA.FNP8.DocCreate - Checking in the new version.
+2014-01-25 10:38:46,222 [9] DEBUG CNO.BPA.FNP8.DocCreate - Saving the new version.
+2014-01-25 10:38:47,083 [9] DEBUG CNO.BPA.FNP8.DocCreate - Returning the document guid ({EC8939A2-C1C8-4106-BCD6-7289CACD8E7C}) and also the version series id ({ECA28541-1933-4620-A303-E900E2057FB6}) to the caller.
+[Start of new log session]
+2014-01-25 10:39:10,029 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 10:39:10,034 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 10:39:10,038 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 10:39:10,043 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 10:39:10,047 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 10:39:10,211 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 10:39:16,398 [9] INFO  CNO.BPA.FNP8.DocCreate - A version series id was passed indicating the caller desires a new version be added to an existing document.
+2014-01-25 10:39:16,407 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to fetch an instance of the version series using the following id: {ECA28541-1933-4620-A303-E900E2057FB6}
+2014-01-25 10:39:16,454 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to checkout the document prior to adding the new version.
+2014-01-25 10:39:16,534 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to create the new document by calling the docSeries Reservation and casting as an IDocument.
+2014-01-25 10:39:16,583 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to create a new content transfer list object.
+2014-01-25 10:39:16,587 [9] DEBUG CNO.BPA.FNP8.DocCreate - Preparing to loop through each memory stream in the array of memory streams passed in.
+2014-01-25 10:39:16,592 [9] DEBUG CNO.BPA.FNP8.DocCreate - Adding the content list object to the document reservation content elements.
+2014-01-25 10:39:16,596 [9] DEBUG CNO.BPA.FNP8.DocCreate - Checking in the new version.
+2014-01-25 10:39:16,601 [9] DEBUG CNO.BPA.FNP8.DocCreate - Saving the new version.
+2014-01-25 10:39:18,309 [9] DEBUG CNO.BPA.FNP8.DocCreate - Returning the document guid ({EBEF3C3C-6227-4071-B959-0A7CE0CA5E15}) and also the version series id ({ECA28541-1933-4620-A303-E900E2057FB6}) to the caller.
+[Start of new log session]
+2014-01-25 10:41:16,693 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-25 10:41:16,698 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-25 10:41:16,702 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-25 10:41:16,706 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-25 10:41:16,711 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-25 10:41:16,826 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+[Start of new log session]
+2014-01-25 10:41:16,850 [9] INFO  CNO.BPA.FNP8.DocDelete - A document GUID of '{6A2DCD9C-1768-47E5-B5BF-C6DDF0B2D9D2} ' was passed in for deletion.
+[Start of new log session]
+2014-01-29 13:08:42,121 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-29 13:08:42,137 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-29 13:08:42,153 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-29 13:08:42,153 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-29 13:08:42,153 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-29 13:08:44,399 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+2014-01-29 13:08:44,462 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to instantiate a new DataAccess object
+2014-01-29 13:08:44,571 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to call selectAppConfigValues
+2014-01-29 13:08:48,814 [9] DEBUG CNO.BPA.FNP8.DocSecurity - selectAppConfigValues returned with 75 rows returned.
+2014-01-29 13:14:02,873 [9] INFO  CNO.BPA.FNP8.DocSecurity - An F_DOCNUMBER was passed of '248989' so a search must first be performed
+2014-01-29 13:14:02,889 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-29 13:14:02,998 [9] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+2014-01-29 13:14:08,365 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-29 13:14:08,411 [9] DEBUG CNO.BPA.FNP8.DocSecurity - ObjectStore retrieved successfully.
+2014-01-29 13:14:08,411 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the document with version series id of {DCF78E45-5596-4C61-AD63-BB78D85A55A9}
+2014-01-29 13:14:08,474 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Version series has been retrieved, preparing to loop through all versions to change their security.
+2014-01-29 13:14:08,583 [9] DEBUG CNO.BPA.FNP8.DocSecurity - preparing to pull a list of security templates for the current doc ({0088BCD3-953B-4F88-B766-0CB801970482}).
+2014-01-29 13:14:08,864 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to loop through the security template list looking for a template named 'LegalHold'.
+2014-01-29 13:14:08,879 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to apply the security template.
+2014-01-29 13:14:09,020 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Security template successfully applied.
+2014-01-29 13:14:09,020 [9] DEBUG CNO.BPA.FNP8.DocSecurity - preparing to pull a list of security templates for the current doc ({BA736794-FCE6-4131-BCBD-8329E1639D16}).
+2014-01-29 13:14:09,113 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to loop through the security template list looking for a template named 'LegalHold'.
+2014-01-29 13:14:09,113 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to apply the security template.
+2014-01-29 13:14:09,191 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Security template successfully applied.
+[Start of new log session]
+2014-01-29 13:15:00,672 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-29 13:15:00,672 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-29 13:15:00,688 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-29 13:15:00,688 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-29 13:15:00,688 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-29 13:15:00,813 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+2014-01-29 13:15:00,828 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to instantiate a new DataAccess object
+2014-01-29 13:15:00,828 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to call selectAppConfigValues
+2014-01-29 13:15:00,875 [9] DEBUG CNO.BPA.FNP8.DocSecurity - selectAppConfigValues returned with 75 rows returned.
+2014-01-29 13:15:00,875 [9] INFO  CNO.BPA.FNP8.DocSecurity - An F_DOCNUMBER was passed of '248989' so a search must first be performed
+2014-01-29 13:15:00,875 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-29 13:15:00,938 [9] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+2014-01-29 13:15:01,094 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-29 13:15:01,140 [9] DEBUG CNO.BPA.FNP8.DocSecurity - ObjectStore retrieved successfully.
+2014-01-29 13:15:01,156 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the document with version series id of {DCF78E45-5596-4C61-AD63-BB78D85A55A9}
+2014-01-29 13:15:01,187 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Version series has been retrieved, preparing to loop through all versions to change their security.
+2014-01-29 13:15:01,250 [9] DEBUG CNO.BPA.FNP8.DocSecurity - preparing to pull a list of security templates for the current doc ({0088BCD3-953B-4F88-B766-0CB801970482}).
+2014-01-29 13:15:01,359 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to loop through the security template list looking for a template named 'LegalHold'.
+2014-01-29 13:15:01,359 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to apply the security template.
+2014-01-29 13:15:01,452 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Security template successfully applied.
+2014-01-29 13:15:01,452 [9] DEBUG CNO.BPA.FNP8.DocSecurity - preparing to pull a list of security templates for the current doc ({BA736794-FCE6-4131-BCBD-8329E1639D16}).
+2014-01-29 13:15:01,562 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to loop through the security template list looking for a template named 'LegalHold'.
+2014-01-29 13:15:01,562 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to apply the security template.
+2014-01-29 13:15:01,640 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Security template successfully applied.
+[Start of new log session]
+2014-01-29 14:53:30,209 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-29 14:53:30,224 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-29 14:53:30,224 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-29 14:53:30,224 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-29 14:53:30,240 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-29 14:53:31,363 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+2014-01-29 14:53:31,379 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to instantiate a new DataAccess object
+2014-01-29 14:53:31,379 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to call selectAppConfigValues
+2014-01-29 14:53:31,659 [9] DEBUG CNO.BPA.FNP8.DocSecurity - selectAppConfigValues returned with 75 rows returned.
+2014-01-29 14:53:31,659 [9] INFO  CNO.BPA.FNP8.DocSecurity - An F_DOCNUMBER was passed of '248989' so a search must first be performed
+2014-01-29 14:53:31,675 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-29 14:53:31,722 [9] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+2014-01-29 14:53:31,909 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-29 14:53:31,940 [9] DEBUG CNO.BPA.FNP8.DocSecurity - ObjectStore retrieved successfully.
+2014-01-29 14:53:31,956 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the document with version series id of {DCF78E45-5596-4C61-AD63-BB78D85A55A9}
+2014-01-29 14:53:31,987 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Version series has been retrieved, preparing to loop through all versions to change their security.
+2014-01-29 14:53:32,081 [9] DEBUG CNO.BPA.FNP8.DocSecurity - preparing to pull a list of security templates for the current doc ({0088BCD3-953B-4F88-B766-0CB801970482}).
+2014-01-29 14:53:32,455 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to loop through the security template list looking for a template named 'LegalHold'.
+2014-01-29 14:53:32,471 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to apply the security template.
+2014-01-29 14:53:32,564 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Security template successfully applied.
+2014-01-29 14:55:29,064 [9] DEBUG CNO.BPA.FNP8.DocSecurity - preparing to pull a list of security templates for the current doc ({BA736794-FCE6-4131-BCBD-8329E1639D16}).
+2014-01-29 14:55:29,189 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to loop through the security template list looking for a template named 'LegalHold'.
+2014-01-29 14:55:29,220 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to apply the security template.
+2014-01-29 14:55:29,298 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Security template successfully applied.
+[Start of new log session]
+2014-01-29 14:55:52,386 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-29 14:55:52,386 [9] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-29 14:55:52,386 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-29 14:55:52,402 [9] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-29 14:55:52,402 [9] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-29 14:55:52,495 [9] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+2014-01-29 14:55:52,495 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to instantiate a new DataAccess object
+2014-01-29 14:55:52,495 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to call selectAppConfigValues
+2014-01-29 14:55:52,542 [9] DEBUG CNO.BPA.FNP8.DocSecurity - selectAppConfigValues returned with 75 rows returned.
+2014-01-29 14:55:52,558 [9] INFO  CNO.BPA.FNP8.DocSecurity - An F_DOCNUMBER was passed of '248989' so a search must first be performed
+2014-01-29 14:55:52,558 [9] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-29 14:55:52,604 [9] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+2014-01-29 14:55:52,729 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-29 14:55:52,776 [9] DEBUG CNO.BPA.FNP8.DocSecurity - ObjectStore retrieved successfully.
+2014-01-29 14:55:52,776 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the document with version series id of {DCF78E45-5596-4C61-AD63-BB78D85A55A9}
+2014-01-29 14:55:52,823 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Version series has been retrieved, preparing to loop through all versions to change their security.
+2014-01-29 14:55:52,870 [9] DEBUG CNO.BPA.FNP8.DocSecurity - preparing to pull a list of security templates for the current doc ({0088BCD3-953B-4F88-B766-0CB801970482}).
+2014-01-29 14:55:52,963 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to loop through the security template list looking for a template named 'LegalHold'.
+2014-01-29 14:55:52,963 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to apply the security template.
+2014-01-29 14:55:53,041 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Security template successfully applied.
+2014-01-29 14:56:16,051 [9] DEBUG CNO.BPA.FNP8.DocSecurity - preparing to pull a list of security templates for the current doc ({BA736794-FCE6-4131-BCBD-8329E1639D16}).
+2014-01-29 14:56:16,176 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to loop through the security template list looking for a template named 'LegalHold'.
+2014-01-29 14:56:16,176 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to apply the security template.
+2014-01-29 14:56:16,285 [9] DEBUG CNO.BPA.FNP8.DocSecurity - Security template successfully applied.
+[Start of new log session]
+2014-01-29 14:57:41,131 [10] INFO  CNO.BPA.FNP8.UserConnection - Preparing to decrypt user info
+2014-01-29 14:57:41,147 [10] DEBUG CNO.BPA.FNP8.UserConnection - User info successfully decrypted
+2014-01-29 14:57:41,163 [10] INFO  CNO.BPA.FNP8.UserConnection - Preparing to connect to the following URI: http://sit.p8ce.cnoinc.com:80/wsi/FNCEWS40MTOM/
+2014-01-29 14:57:41,163 [10] DEBUG CNO.BPA.FNP8.UserConnection - Connection successful, returning connection to caller.
+2014-01-29 14:57:41,178 [10] INFO  CNO.BPA.FNP8.UserConnection - Preparing to fetch an instance of the domain (P8_SIT).
+2014-01-29 14:57:42,847 [10] DEBUG CNO.BPA.FNP8.UserConnection - Domain successfully returned.
+2014-01-29 14:57:42,847 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to instantiate a new DataAccess object
+2014-01-29 14:57:42,957 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to call selectAppConfigValues
+2014-01-29 14:57:46,077 [10] DEBUG CNO.BPA.FNP8.DocSecurity - selectAppConfigValues returned with 75 rows returned.
+2014-01-29 14:57:46,077 [10] INFO  CNO.BPA.FNP8.DocSecurity - An F_DOCNUMBER was passed of '248989' so a search must first be performed
+2014-01-29 14:57:46,092 [10] DEBUG CNO.BPA.FNP8.DocSearch - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-29 14:57:46,685 [10] DEBUG CNO.BPA.FNP8.DocSearch - ObjectStore retrieved successfully.
+2014-01-29 14:57:46,857 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the object store, 'P8FNISDocuments'.
+2014-01-29 14:57:46,888 [10] DEBUG CNO.BPA.FNP8.DocSecurity - ObjectStore retrieved successfully.
+2014-01-29 14:57:46,903 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to fetch an instance of the document with version series id of {DCF78E45-5596-4C61-AD63-BB78D85A55A9}
+2014-01-29 14:57:46,935 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Version series has been retrieved, preparing to loop through all versions to change their security.
+2014-01-29 14:57:47,013 [10] DEBUG CNO.BPA.FNP8.DocSecurity - preparing to pull a list of security templates for the current doc ({0088BCD3-953B-4F88-B766-0CB801970482}).
+2014-01-29 14:57:47,184 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to loop through the security template list looking for a template named 'Normal'.
+2014-01-29 14:57:47,184 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to apply the security template.
+2014-01-29 14:57:47,293 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Security template successfully applied.
+2014-01-29 14:57:47,293 [10] DEBUG CNO.BPA.FNP8.DocSecurity - preparing to pull a list of security templates for the current doc ({BA736794-FCE6-4131-BCBD-8329E1639D16}).
+2014-01-29 14:57:47,387 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to loop through the security template list looking for a template named 'Normal'.
+2014-01-29 14:57:47,387 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Preparing to apply the security template.
+2014-01-29 14:57:47,465 [10] DEBUG CNO.BPA.FNP8.DocSecurity - Security template successfully applied.
